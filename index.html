@@ -524,23 +524,23 @@
 			<div class="popup__row">
 				<div class="popup__column">
 					<div class="form__line">
-						<input placeholder="Имя" autocomplete="off" type="text" name="name" data-error="Ошибка" data-value="" class="input">
+						<input autocomplete="off" type="text" name="name" data-error="Введите корректное Имя" data-value="Имя" class="input _req">
 					</div>
 				</div>
 				<div class="popup__column">
 					<div class="form__line">
-						<input placeholder="Телефон" autocomplete="off" type="tel" name="phone" data-error="Ошибка" data-value="" class="input">
+						<input autocomplete="off" type="tel" name="phone" data-error="Введите корректный телефон" data-value="Телефон" class="input _req _phone">
 					</div>
 				</div>
 				<div class="popup__column">
 					<div class="form__line">
-						<input placeholder="E-mail" autocomplete="off" type="email" name="email" data-error="Ошибка" data-value="" class="input">
+						<input autocomplete="off" type="email" name="email" data-error="Введите почту правильно" data-value="E-mail" class="input _req _email">
 					</div>
 				</div>
 			</div>
 			<div class="popup__bottom">
 				<label class="form__checkbox checkbox">
-					<input checked data-error="Ошибка" class="checkbox__input form__checkbox-input" type="checkbox" value="1" name="form[]">
+					<input checked data-error="Подтвердите согласие" class="checkbox__input form__checkbox-input _req" data-value="" type="checkbox" value="1" name="form[]">
 					<span class="checkbox__text form__checkbox-text"><span>Я согласен на обработку персональных данных</span></span>
 				</label>
 				<button type="submit" class="form__submit">Записаться</button>
